@@ -29,3 +29,9 @@ a:hover {
 .section-class a:hover {
     color: gray;
 }
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
