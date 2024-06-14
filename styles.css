@@ -1,9 +1,31 @@
 body {
-  background-color: black;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
+
 a {
-  text-align: center;
+    color: white;
+    text-decoration: none; /* This removes the underline from links */
+    display: inline-block; /* This ensures that the text-align property affects the links */
 }
-h1 {
-  color: white;
+
+/* Optional: Add hover effect for links */
+a:hover {
+    color: gray; /* Changes the color of the link when hovered over */
+}
+.section-class {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.section-class a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.section-class a:hover {
+    color: gray;
 }
