@@ -1,1 +1,9 @@
-
+body {
+  background-color: black;
+}
+a {
+  text-align: center;
+}
+h1 {
+  color: white;
+}
