@@ -1,37 +1,51 @@
+/* General Styles */
 body {
-    background-color: black;
+    background: linear-gradient(135deg, #000000, #434343); /* Gradient background for depth */
     color: white;
     text-align: center;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
 }
 
 a {
-    color: white;
-    text-decoration: none; /* This removes the underline from links */
-    display: inline-block; /* This ensures that the text-align property affects the links */
+    color: #00bfff; /* Lighter, vibrant color for better contrast */
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
 }
 
-/* Optional: Add hover effect for links */
 a:hover {
-    color: gray; /* Changes the color of the link when hovered over */
+    color: #1e90ff; /* Change color on hover */
+    transform: scale(1.05); /* Slightly enlarge link on hover */
 }
+
+/* Section Styles */
 .section-class {
-    background-color: black;
+    background: rgba(0, 0, 0, 0.8); /* Slightly transparent black background */
     color: white;
     text-align: center;
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
 }
 
 .section-class a {
-    color: white;
+    color: #00bfff; /* Same color as general links for consistency */
     text-decoration: none;
-    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .section-class a:hover {
-    color: gray;
+    color: #1e90ff;
+    transform: scale(1.05);
 }
+
+/* Image Styles */
 img {
     width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto; /* Added vertical margin for spacing */
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
 }
